@@ -1,5 +1,6 @@
 class Observable(object):
-
+	# Basic observable class to be used
+	# by the Home and Game classes.
         def __init__(self):
                 self.observers = []
 
